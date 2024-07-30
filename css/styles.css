@@ -6,6 +6,19 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: #dc392d;
+    --secondary: #69707a;
+    --blue: #1e30f3;
+    --muted: #6c757d;
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, var(--blue) 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 body {
 
 }
