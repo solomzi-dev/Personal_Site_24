@@ -80,6 +80,12 @@ body {
     grid-column: span 2;
 }
 
+.about {
+    grid-column: span 2;
+    background-color: #69707a10;
+    text-align: center;
+}
+
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -132,7 +138,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-.text-box p {
+.text-box p, .about p {
     font-size: 1.5rem;
 }
 
@@ -155,4 +161,27 @@ body {
     width: 100%;
     background: linear-gradient(315deg, var(--primary) 0%, var(--blue) 100%);
     border-radius: 2rem;
+}
+
+.about h3 {
+    font-size: 3rem;
+}
+
+.about .secondary-text {
+    font-size: 1.1rem;
+    max-width: 670px;
+    text-align: center;
+    margin: 1.3rem auto;
+    color: var(--muted);
+}
+
+.social i {
+    background:linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.social .fa-linkedin {
+    margin: 0 1.3rem;
 }
