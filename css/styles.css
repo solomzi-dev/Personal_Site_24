@@ -10,6 +10,7 @@
     --primary: #dc392d;
     --secondary: #69707a;
     --blue: #1e30f3;
+    --grey: #333;
     --muted: #6c757d;
 }
 
@@ -52,6 +53,8 @@ body {
     font-size: 1.1rem;
     display: inline-block;
     width: 170px;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 .btn-primary {
@@ -62,6 +65,11 @@ body {
 .btn-secondary {
     background-color: transparent;
     border: var(--secondary) solid 1px;
+}
+
+.btn-secondary:hover {
+    background-color: var(--grey);
+    color: #fff;
 }
 
 .main-nav {
