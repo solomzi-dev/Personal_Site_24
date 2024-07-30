@@ -14,11 +14,31 @@
 }
 
 .text-gradient {
-    background: -webkit-linear-gradient(315deg, var(--blue) 0%, #e21e80 100%);
+    background:linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-body {
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
 
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr;
+    gap: 20px;
+}
+
+.main-nav {
+    grid-column: span 2;
+}
+
+.banner-area {
+    grid-column: span 2;
 }
